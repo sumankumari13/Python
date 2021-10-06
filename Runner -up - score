@@ -1,0 +1,7 @@
+#Given list is [1,2,3,4,5]. The maximum score is 5 , second maximum is 4 . Hence, we print 4 as the runner-up score.
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    k= sorted(list(set(arr)))[-2]
+    print(k)
