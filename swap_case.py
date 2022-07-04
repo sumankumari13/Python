@@ -1,3 +1,4 @@
+#swap_case
 def swap_case(s):
     res=''
     for letter in s:
